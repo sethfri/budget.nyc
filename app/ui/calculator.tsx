@@ -18,7 +18,9 @@ export default function Calculator({ expenseRatios }: { expenseRatios: object[] 
         </thead>
         <tbody>
           {expenseRatios?.map((expenseRatio) => (
-            <tr>
+            // Key is a hint to React to help it keep components matched up with data
+            // https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key
+            <tr key={'"' + expenseRatio.id + '"'}>
               <td className="pt-2 pl-2">{expenseRatio.expense_category}</td>
               <td className="pt-2">${cityTaxPaid * expenseRatio.expense_ratio}</td>
             </tr>

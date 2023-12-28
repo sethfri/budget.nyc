@@ -1,37 +1,46 @@
 [
   {
+    "id": 0,
     "expense_category": "Debt Service",
     "expense_ratio": 0.06
   },
   {
+    "id": 1,
     "expense_category": "General Government",
     "expense_ratio": 0.06
   },
   {
+    "id": 2,
     "expense_category": "Education",
     "expense_ratio": 0.29
   },
   {
+    "id": 3,
     "expense_category": "Social Services",
     "expense_ratio": 0.19
   },
   {
+    "id": 4,
     "expense_category": "Police, Fire, & Corrections",
     "expense_ratio": 0.09
   },
   {
+    "id": 5,
     "expense_category": "Transportation & Housing",
     "expense_ratio": 0.02
   },
   {
+    "id": 6,
     "expense_category": "Health, Sanitation, & Environmental Protection",
     "expense_ratio": 0.09
   },
   {
+    "id": 7,
     "expense_category": "Recreation and Cultural",
     "expense_ratio": 0.01
   },
   {
+    "id": 8,
     "expense_category": "Pension & Fringe Benefits",
     "expense_ratio": 0.19
   }
