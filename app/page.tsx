@@ -16,8 +16,8 @@ export default function Page() {
         <table className="table-auto text-left w-full bg-yellow-300">
           <thead>
             <tr>
-              <th>Expense Category</th>
-              <th>Tax Dollars Spent</th>
+              <th scope="col">Expense Category</th>
+              <th scope="col">Tax Dollars Spent</th>
             </tr>
           </thead>
           <tbody>
