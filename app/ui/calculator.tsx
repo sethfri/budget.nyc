@@ -1,6 +1,6 @@
 'use client';
 
-import Search from './ui/search';
+import Search from './search';
 import { ChangeEvent, useState } from 'react';
 
 export default function Calculator({ expenseRatios }: { expenseRatios: object[] }) {
