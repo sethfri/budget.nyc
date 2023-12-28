@@ -3,10 +3,11 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { promises as fs } from 'fs';
 import Calculator from './ui/calculator';
+import { ExpenseRatio } from './lib/definitions';
 
 export default async function Page() {
   const expenseRatiosFile = await fs.readFile(process.cwd() + '/app/lib/expense-ratios.json', 'utf8');
-  const expenseRatios = JSON.parse(expenseRatiosFile);
+  const expenseRatios: ExpenseRatio[] = JSON.parse(expenseRatiosFile);
 
   return (
     <main className="flex min-h-screen flex-col p-4 space-y-4 bg-slate-500">
