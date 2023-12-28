@@ -180,9 +180,49 @@ const revenue = [
   { month: 'Dec', revenue: 4800 },
 ];
 
+const expense_ratios = [
+  {
+    expense_category: 'Debt Service',
+    expense_ratio: 0.06,
+  },
+  {
+    expense_category: 'General Government',
+    expense_ratio: 0.06,
+  },
+  {
+    expense_category: 'Education',
+    expense_ratio: 0.29,
+  },
+  {
+    expense_category: 'Social Services',
+    expense_ratio: 0.19,
+  },
+  {
+    expense_category: 'Police, Fire, & Corrections',
+    expense_ratio: 0.09,
+  },
+  {
+    expense_category: 'Transportation & Housing',
+    expense_ratio: 0.02,
+  },
+  {
+    expense_category: 'Health, Sanitation, & Environmental Protection',
+    expense_ratio: 0.09,
+  },
+  {
+    expense_category: 'Recreation and Cultural',
+    expense_ratio: 0.01,
+  },
+  {
+    expense_category: 'Pension & Fringe Benefits',
+    expense_ratio: 0.19,
+  },
+];
+
 module.exports = {
   users,
   customers,
   invoices,
   revenue,
+  expense_ratios,
 };
