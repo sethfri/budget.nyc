@@ -2,7 +2,7 @@
 
 import { ExpenseRatio } from '../lib/definitions';
 import Search from './search';
-import { ChangeEvent, useState } from 'react';
+import { useState } from 'react';
 
 export default function Calculator({ expenseRatios }: { expenseRatios: ExpenseRatio[] }) {
   const [cityTaxPaid, setCityTaxPaid] = useState(0);
