@@ -18,7 +18,7 @@ export default function Calculator({ expenseRatios }: { expenseRatios: ExpenseRa
       }} />
       <table className="table-auto text-left w-full rounded-lg bg-gray-50">
         <thead className="rounded-lg">
-          <tr className="group">
+          <tr>
             <th className="pt-4 pb-4 pl-4 pr-16 text-orange-600" scope="col">Expense Category</th>
             <th className="pt-4 pb-4 text-orange-600" scope="col">Tax Dollars Spent</th>
           </tr>
