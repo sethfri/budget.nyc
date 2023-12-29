@@ -14,7 +14,7 @@ export default async function Page() {
       </div>
       <div className="flex flex-col w-1/2 self-center space-y-4">
         <h1 className="text-3xl">Where are my tax dollars going?</h1>
-        <p className="text-xl max-w-prose">Most New Yorkers pay X% of their income to the city. Input the city tax you paid in April 2023, and we'll show you where your money went.</p>
+        <p className="text-xl max-w-prose">Type in the local income tax you paid to the city in April 2023, and we'll show you where your money went.</p>
         <Calculator expenseRatios={expenseRatios} />
       </div>
       <div className="flex self-center pt-6">
