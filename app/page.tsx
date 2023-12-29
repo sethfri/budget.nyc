@@ -7,7 +7,7 @@ export default async function Page() {
   const expenseRatios: ExpenseRatio[] = JSON.parse(expenseRatiosFile);
 
   return (
-    <main className="flex min-h-screen flex-col pb-4 space-y-8">
+    <main className="flex min-h-screen flex-col pb-4 space-y-2 md:space-y-8">
       <div className="flex bg-blue-900 p-4">
         <h1 className="text-xl text-white">📊 Budget.nyc</h1>
       </div>
