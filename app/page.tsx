@@ -11,7 +11,7 @@ export default async function Page() {
       <div className="flex bg-blue-900 p-4">
         <h1 className="text-xl text-white">📊 Budget.nyc</h1>
       </div>
-      <div className="flex flex-col w-1/2 self-center space-y-4">
+      <div className="flex flex-col p-4 md:p-0 md:w-1/2 self-center space-y-4 bg-slate-200">
         <h1 className="text-3xl">Where are my tax dollars going?</h1>
         <p className="text-xl max-w-prose">Type in the local income tax you paid to the city in April 2023, and we&lsquo;ll show you where your money went.</p>
         <Calculator expenseRatios={expenseRatios} />
