@@ -1,7 +1,6 @@
 import { promises as fs } from 'fs';
 import Calculator from './ui/calculator';
 import { ExpenseRatio } from './lib/definitions';
-import CustomersTable from './ui/customers/table';
 
 export default async function Page() {
   const expenseRatiosFile = await fs.readFile(process.cwd() + '/app/lib/expense-ratios.json', 'utf8');
