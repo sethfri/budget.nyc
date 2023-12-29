@@ -9,7 +9,9 @@ export default function Calculator({ expenseRatios }: { expenseRatios: ExpenseRa
 
   return (
     <>
-      <Search placeholder={'City tax paid'} onChange={(event) => setCityTaxPaid(parseFloat((event.target as HTMLInputElement).value.replace(/,/g, '') ?? ""))} />
+      <Search placeholder={'City tax paid'} onChange={(event) => {
+        setCityTaxPaid(parseFloat(event.target.value.replace(/,/g, '')) || 0)
+      }} />
       <table className="table-auto text-left w-full rounded-md bg-yellow-300">
         <thead>
           <tr>

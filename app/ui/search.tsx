@@ -3,7 +3,7 @@
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import { ChangeEventHandler } from 'react';
 
-export default function Search({ placeholder, onChange }: { placeholder: string, onChange: ChangeEventHandler }) {
+export default function Search({ placeholder, onChange }: { placeholder: string, onChange: ChangeEventHandler<HTMLInputElement> }) {
   return (
     <div className="relative flex flex-1 flex-shrink-0">
       <label htmlFor="search" className="sr-only">
