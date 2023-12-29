@@ -12,7 +12,7 @@ export default async function Page() {
   return (
     <main className="flex min-h-screen flex-col p-4 space-y-4 bg-slate-500">
       <div className="flex bg-blue-300">
-        📊 Budget.nyc
+        <h1 className="text-xl">📊 Budget.nyc</h1>
       </div>
       <div className="flex flex-col w-1/2 self-center space-y-4 bg-slate-300">
         <h1 className="text-3xl">Where are my tax dollars going?</h1>
