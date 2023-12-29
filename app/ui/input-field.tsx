@@ -1,9 +1,9 @@
 'use client';
 
-import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+import { CurrencyDollarIcon } from '@heroicons/react/24/outline';
 import { ChangeEventHandler } from 'react';
 
-export default function Search({ placeholder, onChange }: { placeholder: string, onChange: ChangeEventHandler<HTMLInputElement> }) {
+export default function InputField({ placeholder, onChange }: { placeholder: string, onChange: ChangeEventHandler<HTMLInputElement> }) {
   return (
     <div className="relative flex flex-1 flex-shrink-0">
       <label htmlFor="search" className="sr-only">
@@ -14,7 +14,7 @@ export default function Search({ placeholder, onChange }: { placeholder: string,
         placeholder={placeholder}
         onChange={onChange}
       />
-      <MagnifyingGlassIcon className="absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500 peer-focus:text-gray-900" />
+      <CurrencyDollarIcon className="absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500 peer-focus:text-gray-900" />
     </div>
   );
 }
