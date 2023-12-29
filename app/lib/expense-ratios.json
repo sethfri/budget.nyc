@@ -27,6 +27,7 @@
   {
     "id": 5,
     "expense_category": "General Government",
+    "description": "Includes the Mayor's Office, the Comptroller's Office, the City Council, Dept of Finance, and Dept of Citywide Administrative Services",
     "expense_ratio": 0.03
   },
   {

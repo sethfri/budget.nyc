@@ -93,5 +93,6 @@ export type InvoiceForm = {
 export type ExpenseRatio = {
   id: string;
   expense_category: string;
+  description: string;
   expense_ratio: number;
 }
