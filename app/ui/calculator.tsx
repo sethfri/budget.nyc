@@ -1,6 +1,7 @@
 'use client';
 
 import { ExpenseRatio } from '../lib/definitions';
+import { formatCurrency } from '../lib/utils';
 import Search from './search';
 import { useState } from 'react';
 
@@ -12,7 +13,7 @@ export default function Calculator({ expenseRatios }: { expenseRatios: ExpenseRa
       <Search placeholder={'City tax paid'} onChange={(event) => {
         const strippedInput = event.target.value.replace(/,/g, '')
         const taxPaid = parseFloat(strippedInput) || 0
-        
+
         setCityTaxPaid(taxPaid)
       }} />
       <table className="table-auto text-left w-full rounded-md bg-yellow-300">
@@ -28,7 +29,7 @@ export default function Calculator({ expenseRatios }: { expenseRatios: ExpenseRa
             // https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key
             <tr key={'"' + expenseRatio.id + '"'}>
               <td className="pt-2 pl-2">{expenseRatio.expense_category}</td>
-              <td className="pt-2">${cityTaxPaid * expenseRatio.expense_ratio}</td>
+              <td className="pt-2">{formatCurrency(cityTaxPaid * expenseRatio.expense_ratio)}</td>
             </tr>
           ))}
         </tbody>
