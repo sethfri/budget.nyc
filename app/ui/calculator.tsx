@@ -18,7 +18,7 @@ export default function Calculator({ expenseRatios }: { expenseRatios: ExpenseRa
       }} />
       <table className="table-auto text-left w-full rounded-md bg-yellow-300">
         <thead>
-          <tr>
+          <tr className="border-b">
             <th className="pt-2 pl-2" scope="col">Expense Category</th>
             <th className="pt-2" scope="col">Tax Dollars Spent</th>
           </tr>
@@ -27,7 +27,7 @@ export default function Calculator({ expenseRatios }: { expenseRatios: ExpenseRa
           {expenseRatios?.map((expenseRatio) => (
             // Key is a hint to React to help it keep components matched up with data
             // https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key
-            <tr key={'"' + expenseRatio.id + '"'}>
+            <tr key={'"' + expenseRatio.id + '"'} className="border-b">
               <td className="pt-2 pl-2">{expenseRatio.expense_category}</td>
               <td className="pt-2">{formatCurrency(cityTaxPaid * expenseRatio.expense_ratio)}</td>
             </tr>
