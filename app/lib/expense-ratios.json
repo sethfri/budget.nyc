@@ -1,47 +1,57 @@
 [
   {
     "id": 0,
-    "expense_category": "Debt Service",
-    "expense_ratio": 0.06
+    "expense_category": "Elementary & Secondary Education",
+    "expense_ratio": 0.34
   },
   {
     "id": 1,
-    "expense_category": "General Government",
-    "expense_ratio": 0.06
+    "expense_category": "Public Safety",
+    "expense_ratio": 0.17
   },
   {
     "id": 2,
-    "expense_category": "Education",
-    "expense_ratio": 0.29
+    "expense_category": "Social Services",
+    "expense_ratio": 0.13
   },
   {
     "id": 3,
-    "expense_category": "Social Services",
-    "expense_ratio": 0.19
+    "expense_category": "Health and Medicaid",
+    "expense_ratio": 0.10
   },
   {
     "id": 4,
-    "expense_category": "Police, Fire, & Corrections",
-    "expense_ratio": 0.09
+    "expense_category": "Environment",
+    "expense_ratio": 0.05
   },
   {
     "id": 5,
-    "expense_category": "Transportation & Housing",
-    "expense_ratio": 0.02
+    "expense_category": "General Government",
+    "expense_ratio": 0.03
   },
   {
     "id": 6,
-    "expense_category": "Health, Sanitation, & Environmental Protection",
-    "expense_ratio": 0.09
+    "expense_category": "Transportation",
+    "expense_ratio": 0.02
   },
   {
     "id": 7,
-    "expense_category": "Recreation and Cultural",
-    "expense_ratio": 0.01
+    "expense_category": "Housing and Buildings",
+    "expense_ratio": 0.02
   },
   {
     "id": 8,
-    "expense_category": "Pension & Fringe Benefits",
-    "expense_ratio": 0.19
+    "expense_category": "Parks, Culturals, and Libraries",
+    "expense_ratio": 0.02
+  },
+  {
+    "id": 9,
+    "expense_category": "Elected",
+    "expense_ratio": 0.01
+  },
+  {
+    "id": 10,
+    "expense_category": "Other",
+    "expense_ratio": 0.11
   }
 ]
